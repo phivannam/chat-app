@@ -1,4 +1,5 @@
-/* #login-screen{
+
+#register-screen{
     width: 100%;
     min-width: 400px;
     min-height: 100vh;
@@ -7,11 +8,11 @@
     justify-content: flex-end;
     align-items: center;
     position: relative;
-    background: burlywood;
+    background: url("../images/background.jpg") no-repeat center center;
     background-size: cover;
 
 }
-#login-screen #login-form-container{
+#register-screen #register-form-container{
     width: 500px;
     min-width: 400px;
     height: 100%;
@@ -21,4 +22,31 @@
     flex-direction: column;
     padding: 70px 50px;
     background: #ffffff;
-} */
+}
+#register-screen #register-form-container .logo {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1;
+    color: #788195;
+}
+
+#register-screen #register-form-container .name-group{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#register-screen #register-form-container .name-group .input-wrapper{
+    width: 48%;
+}
+
+#register-screen #register-form-container .button-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

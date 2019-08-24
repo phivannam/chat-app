@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+    width: 100%;
+}
+.error{
+    color: red;
+}
+
+.input-wrapper{
+    margin-bottom: 15px;
+    
+}
+.input{
+    height: 45px;
+    padding: 6px 10px;
+    width: 100%;
+    cursor: text;
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #595959;
+    background: #ffff;
+}
+.button-group input{
+    width: 100px;
+    height: 25px;
+    color:#ffff;
+    background: blue;
+    border-radius: 20px;
+}

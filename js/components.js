@@ -4,10 +4,6 @@ components.welcomePage = `
     <div>Welcome Minx Chats</div>
 `;
 
-components.registerPage = `
-    <div>Register page</div>
-`;
-
 components.loginPage = `
 <div id="login-screen">
     <div id="login-form-container">
@@ -33,19 +29,19 @@ components.loginPage = `
 `;
 
 components.registerPage = `
-<div id="login-screen">
-    <div id="register-form-container">
-        <h2>Mindx Chats</h2>
-        <form action="" id="register-form">
-            
-            <div id="name-group">
-                <div>
-                    <input type="text" name="firstName" placeholder="firstName"/><br>
+<div id="register-screen">
+        <div id="register-form-container">
+        <h2 class="logo">Mindx Chats</h2>
+        <form class="register-form" action="" id="register-form">
+    
+            <div class="name-group" id="name-group">
+                <div class="input-wrapper">
+                    <input type="text" name="firstName" placeholder="FirstName"/><br>
                     <div class="error" id="firstName-error-message"></div>
                 </div>
 
-                <div>
-                    <input type="text" name="lastName" placeholder="lastName"/><br>
+                <div class="input-wrapper">
+                    <input type="text" name="lastName" placeholder="LastName"/><br>
                     <div class="error" id="lastName-error-message"></div>
                 </div>
             </div>
@@ -60,16 +56,19 @@ components.registerPage = `
             </div>
             
             <div class="input-wrapper">
-                <input type="password" name="confirmPassword" placeholder="confirmPassword"/><br>
+                <input type="password" name="confirmPassword" placeholder="ConfirmPassword"/><br>
                 <div class="error" id="confirmPassword-error-message"></div>
             </div>
-           
+        
 
             <div class="button-group">
-                <span id="login-link>Already have an account? Log In</span><br>
-                <input type="submit" value="register">
+                <span id="login-link">Already have an account? Log In</span><br>
+                <input type="submit" value="register" />
             </div>
-        </form>
-    </div>
+    </form>
 </div>
+`;
+
+components.chatPage = `
+    <div id=welcome>Login success</div>
 `;
