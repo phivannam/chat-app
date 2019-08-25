@@ -11,16 +11,16 @@ components.loginPage = `
         <form action="" id="login-form">
             <div class="input-wrapper">
                 <input type="text" name="email" placeholder="Email address"/><br>
-                <div id="email-error-message"></div>
+                <div class="error" id="email-error-message"></div>
             </div>
 
             <div class="input-wrapper">
                 <input type="password" name="password" placeholder="Password"/><br>
-                <div id="password-error-message"></div>
+                <div class="error" id="password-error-message"></div>
             </div>
 
             <div class="button-group">
-                <p>Dont have an account? Register</p><br>
+                <span id="register-link">Dont have an account? Register</span><br>
                 <input type="submit" value="Log In">
             </div>
         </form>

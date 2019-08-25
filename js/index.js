@@ -14,5 +14,5 @@ window.onload = () => {
   firebase.initializeApp(firebaseConfig);
   console.log(firebase);
   //show welcome screen
-    view.setActiveScreen('loginPage');
+    view.setActiveScreen('registerPage');
 };
